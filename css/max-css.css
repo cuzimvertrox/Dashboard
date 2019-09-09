@@ -1,0 +1,165 @@
+/*
+ * Name: MAX-Stuttgart.de - Universal Login Page
+ * File: ./css/max-css.css
+ * Last Edit: 09.09.2019 by Benjamin Kollmer
+ *
+ * All rights reserved by MAX-STUTTGART.de
+ * No permission of distributing or changing this code!
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+
+/*
+ * Global settings
+ */
+* {
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+
+/*
+ * Custom font changes
+ */
+.rob-black {
+    font-family: "Roboto Black", serif;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(../assets/fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+
+.rob-black {
+
+}
+
+.rob-bold {
+    font-family: "Roboto Bold", serif;
+}
+
+.rob-light {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+.rob-medium {
+    font-family: "Roboto Medium", serif;
+}
+
+.rob-regular {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.rob-thin {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../assets/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+
+
+/*
+ * Custom Headlines
+ */
+
+.max-h1 {
+
+}
+
+.max-h2 {
+    font-size: 18px;
+    color: #041B47;
+
+}
+
+.max-h3 {
+
+}
+
+.max-h4 {
+
+}
+
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/*
+ * CSS Code for centered Login Card
+ */
+
+.card {
+    width: 330px;
+    height: 348px;
+
+
+    padding: 72px 30px 30px 30px;
+
+    color: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
+
+.card-content a {
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+
+}
+
+.card-logo {
+    width: 80px;
+    border-radius: 20px;
+    margin-bottom: -40px;
+    height: 80px;
+}
+
+.card-field-usr {
+    padding-top: 56px;
+
+}
+
+.card-username-inp {
+    padding-top: 56px;
+    color: #041B47;
+
+}
+.card-username-lbl {
+    padding-top: 52px;
+}
+
+.card-password-inp {
+    padding-top: 34px;
+    color: #041B47
+
+}
+.card-password-lbl {
+    padding-top: 30px;
+}
+
+.card-button {
+    margin-top: 50px;
+    float: right;
+}
+
+
+/*
+ * Custom CSS for Material Design changes
+ */
+
+.mdl-grid.center-items {
+    justify-content: center;
+}
